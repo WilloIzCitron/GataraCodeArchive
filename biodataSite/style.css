@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+.foto{
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0,3s;
+}
+
+.siteButton {
+    background-color: #206a00;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#whatsapp {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+#minijudul {
+    margin-bottom: 2px;
+}
+
+button:hover{
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Dark mode */
+.dark {
+    background-color: #2c3e50;
+    color: white;
+}
+.dark button {
+    background-color: #1abc9c;
+}
+.dark {
+    background-color: #16a085;
+}
