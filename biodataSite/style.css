@@ -26,7 +26,7 @@ h1 {
     margin: 15px 0;
 }
 
-button {
+#btnTema, #btnSapa {
     background-color: #3498db;
     color: white;
     border: none;
@@ -35,26 +35,59 @@ button {
     cursor: pointer;
     margin: 5px;
     transition: background-color 0.3s, transform 0,3s;
+    animation-name: standbyButton;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
 }
 
-.siteButton {
+.siteButton #whatsapp {
     background-color: #206a00;
     color: white;
     padding: 10px 10px;
     margin: 5px;
+    border-radius: 5px;
+    max-width: 15px;
+    max-height: 15px;
+    cursor: pointer;
+}
+.siteButton #instagram {
+    background-color: #da015b;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 15px;
+    max-height: 15px;
+    cursor: pointer;
+}
+.siteButton #twitter {
+    background-color: #000000;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 15px;
+    max-height: 15px;
     cursor: pointer;
 }
 
-#whatsapp {
-    max-width: 15px;
-    max-height: 15px;
+
+.siteButton {
+        background-color: #206a0000;
+        border-color: #00000000;
+    color: white;
 }
+.sitebutton:hover {
+     background-color: #ffffff00;
+}
+
 
 #minijudul {
     margin-bottom: 2px;
 }
 
-button:hover{
+.siteButton #whatsapp:hover, #instagram:hover, #twitter:hover{
     background-color: #2c3e50;
     color: white;
 }
@@ -64,9 +97,30 @@ button:hover{
     background-color: #2c3e50;
     color: white;
 }
-.dark button {
-    background-color: #1abc9c;
+
+.dark h1 {
+    color: #f5f5f5;
+}
+
+.dark .container {
+    background-color: #2c1f1f54;
+}
+
+.dark #btnTema, .dark #btnSapa, .dark .siteButton #whatsapp, .dark .siteButton #instagram, .dark .siteButton #twitter{
+    background-color: #352b2b;
 }
 .dark {
-    background-color: #16a085;
+    background-color: #1a1616;
+}
+
+@keyframes standbyButton {
+    0% {
+        background-color: #3498db;
+    }
+    50% {
+        background-color: #65befa;
+    }
+    100% {
+        background-color: #3498db;
+    }
 }
