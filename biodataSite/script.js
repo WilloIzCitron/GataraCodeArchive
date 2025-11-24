@@ -37,7 +37,7 @@ whatsappButton.addEventListener('click', () => {
 instaButton.addEventListener('click', () => {
     var metaTag = document.createElement("meta");
     metaTag.setAttribute("http-equiv", "refresh");
-    metaTag.setAttribute("content", "0; url=https://instagram.com/@willoizcitron");
+    metaTag.setAttribute("content", "0; url=https://www.instagram.com/willoizcitron/");
     document.head.appendChild(metaTag);
     alert("Aku akan memandu anda untuk melihat instagramku");
     
