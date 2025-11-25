@@ -21,32 +21,32 @@ tombolSapa.addEventListener('click', () => {
     }
 })
 
-const whatsappButton = document.getElementById("whatsapp");
-const instaButton = document.getElementById("instagram");
-const xButton = document.getElementById("twitter");
+// const whatsappButton = document.getElementById("whatsapp");
+// const instaButton = document.getElementById("instagram");
+// const xButton = document.getElementById("twitter");
 
 
-whatsappButton.addEventListener('click', () => {
-    var metaTag = document.createElement("meta");
-    metaTag.setAttribute("http-equiv", "refresh");
-    metaTag.setAttribute("content", "0; url=https://whatsapp.com/");
-    document.head.appendChild(metaTag);
-    alert("Aku akan memandu anda untuk melihat whatsapp");
+// whatsappButton.addEventListener('click', () => {
+//     var metaTag = document.createElement("meta");
+//     metaTag.setAttribute("http-equiv", "refresh");
+//     metaTag.setAttribute("content", "0; url=https://whatsapp.com/");
+//     document.head.appendChild(metaTag);
+//     alert("Aku akan memandu anda untuk melihat whatsapp");
     
-})
-instaButton.addEventListener('click', () => {
-    var metaTag = document.createElement("meta");
-    metaTag.setAttribute("http-equiv", "refresh");
-    metaTag.setAttribute("content", "0; url=https://www.instagram.com/willoizcitron/");
-    document.head.appendChild(metaTag);
-    alert("Aku akan memandu anda untuk melihat instagramku");
+// })
+// instaButton.addEventListener('click', () => {
+//     var metaTag = document.createElement("meta");
+//     metaTag.setAttribute("http-equiv", "refresh");
+//     metaTag.setAttribute("content", "0; url=https://instagram.com/willoizcitron");
+//     document.head.appendChild(metaTag);
+//     alert("Aku akan memandu anda untuk melihat instagramku");
     
-})
-xButton.addEventListener('click', () => {
-    var metaTag = document.createElement("meta");
-    metaTag.setAttribute("http-equiv", "refresh");
-    metaTag.setAttribute("content", "0; url=https://x.com/@WilloCitron");
-    document.head.appendChild(metaTag);
-    alert("Aku akan memandu anda untuk melihat twitterku");
+// })
+// xButton.addEventListener('click', () => {
+//     var metaTag = document.createElement("meta");
+//     metaTag.setAttribute("http-equiv", "refresh");
+//     metaTag.setAttribute("content", "0; url=https://x.com/@WilloCitron");
+//     document.head.appendChild(metaTag);
+//     alert("Aku akan memandu anda untuk melihat twitterku");
     
-})
+// })
